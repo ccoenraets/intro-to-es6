@@ -29,3 +29,9 @@ step1(function(value1) {
         });
     });
 });
+
+/*
+    - Hard to compose
+    - Hard to handle errors
+    - Breaks "input params"/"return value" function semantic
+*/

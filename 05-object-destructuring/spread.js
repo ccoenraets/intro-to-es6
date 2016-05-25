@@ -6,6 +6,7 @@ var speaker = {
     homePhone: "617-888-1234"
 };
 
+// Create Variables from Object
 var {firstName, lastName, ...phoneNumbers} = speaker;
 
 console.log(firstName);

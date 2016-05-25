@@ -1,7 +1,8 @@
+"use strict";
+
 function divide(x, y) {
-    let result;
     if (y != 0) {
-        result = x / y;
+        let result = x / y;
     }
     return result;
 }

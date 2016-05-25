@@ -1,3 +1,5 @@
+"use strict";
+
 let firstName = "Christophe";
 let lastName = "Coenraets";
 let twitterId = "@ccoenraets";

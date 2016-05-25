@@ -1,24 +1,26 @@
 function step1() {
+    // Proxy for value that's not yet available
     return new Promise(resolve => {
-        resolve("step 1 ok");
+        // do something asynchronously
+        resolve("step 1 completed");
     });
 }
 
 function step2(value) {
     return new Promise(resolve => {
-        resolve(value + " step 2 ok");
+        resolve(value + " step 2 completed");
     });
 }
 
 function step3(value) {
     return new Promise(resolve => {
-        resolve(value + " step 3 ok");
+        resolve(value + " step 3 completed");
     });
 }
 
 function step4(value) {
     return new Promise(resolve => {
-        resolve(value + " step 4 ok");
+        resolve(value + " step 4 completed");
     });
 }
 

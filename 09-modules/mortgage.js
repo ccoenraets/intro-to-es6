@@ -7,3 +7,9 @@ export let calculateMonthlyPayment = (principal, years, rate) => {
         (1 - (Math.pow(1/(1 + monthlyRate), years * 12)));
     return {principal, years, rate, monthlyPayment, monthlyRate};
 };
+
+export let calculateAmortization = (principal, years, rate) => {
+
+    return [];
+
+}

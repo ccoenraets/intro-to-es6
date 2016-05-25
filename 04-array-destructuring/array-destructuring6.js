@@ -1,3 +1,5 @@
+"use strict";
+
 var colors = ["red", "green", "blue"];
 
 // Create Variables from Array

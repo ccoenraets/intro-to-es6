@@ -1,3 +1,5 @@
+"use strict";
+
 class Mortgage {
 
     constructor(amount, years, rate) {

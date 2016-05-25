@@ -1,8 +1,8 @@
 var obj = {
 
     init: function () {
-        var self = this;
         console.log("waiting 2 seconds");
+        var self = this;
         setTimeout(function() {
             self.doSomething();
         }, 2000);
